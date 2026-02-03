@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
   }
-
+/* Navbar */
   .navbar {
     background-color: rebeccapurple;
     display: flex;
@@ -17,14 +17,13 @@
     color: white;
     text-decoration: none;
   }
-
-  .nav-links li {
+    .nav-links li {
     list-style: none;
     display: inline-block;
     padding: 0px 20px;
 
   }
-
+/* Header section */
   .head {
     display: flex;
     justify-content: space-between;
@@ -70,3 +69,97 @@
   .btn a:hover{
     color: black;
   }
+
+  /* Card Section */
+  .cards{
+    display: flex;
+    gap: 20px;
+    margin: 30px 50px;
+  }
+/* CARD 1 */
+  .card1{
+    background-color: #f5f6f7;
+    padding: 10px 30px;
+    border-radius: 20px;
+  }
+
+  .card1 img{
+    padding: 20px 40px;
+    width: 350px;
+  }
+
+  .card1 h2 a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .card1 h2 a:hover{
+    text-decoration: underline;
+  }
+
+  .btn2{
+    padding: 10px 10px;
+    margin: 20px 40px;
+    border: 1px solid blue;
+    border-radius: 20px;
+  }
+
+  .btn2 a{
+    color: blue;
+    text-decoration: none;
+  }
+/* CARD 2 */
+
+  .card2{
+    background-color: #f5f6f7;
+    padding: 20px 30px;
+    border-radius: 20px;
+  }
+
+  .card2 img{
+    width: 350px;
+    padding: 20px 40px;
+  }
+
+  .card2 h2 a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .card2 h2 a:hover{
+    text-decoration: underline;
+  }
+  .btn2 {
+    padding: 10px 10px;
+    margin: 20px 40px;
+    border: 1px solid blue;
+    border-radius: 20px;
+  }
+/* CARD 3 */
+
+.card3{
+    background-color: #f5f6f7;
+    padding: 20px 30px;
+    border-radius: 20px;
+  }
+
+  .card3 img{
+    width: 350px;
+    padding: 20px 40px;
+  }
+
+  .card3 h2 a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .card3 h2 a:hover{
+    text-decoration: underline;
+  }
+  .btn2 {
+    padding: 10px 10px;
+    margin: 20px 40px;
+    border: 1px solid blue;
+    border-radius: 20px;
+  }
+
